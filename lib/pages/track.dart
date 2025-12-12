@@ -40,13 +40,13 @@ class _TrackPageState extends State<TrackPage> {
         backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
         title: Text(
-            "Track".toUpperCase(),
-            style: TextStyle(
-              fontSize: 24,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-            ),
+          "Track".toUpperCase(),
+          style: TextStyle(
+            fontSize: 24,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.5,
+          ),
         ),
         centerTitle: true,
         elevation: 4,

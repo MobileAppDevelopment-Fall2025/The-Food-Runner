@@ -48,13 +48,13 @@ class _SettingPageState extends State<SettingPage> {
         backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
         title: Text(
-            "Setting".toUpperCase(),
-            style: TextStyle(
-              fontSize: 24,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-            ),
+          "Setting".toUpperCase(),
+          style: TextStyle(
+            fontSize: 24,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.5,
+          ),
         ),
         centerTitle: true,
         elevation: 6,

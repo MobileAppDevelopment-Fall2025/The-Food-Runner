@@ -42,13 +42,13 @@ class _HomePageState extends State<HomePage>
         backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
         title: Text(
-            "Home".toUpperCase(),
-            style: TextStyle(
-              fontSize: 24,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-            ),
+          "Home".toUpperCase(),
+          style: TextStyle(
+            fontSize: 24,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.5,
+          ),
         ),
         centerTitle: true,
         elevation: 4,
@@ -62,8 +62,8 @@ class _HomePageState extends State<HomePage>
                   title: Padding(
                     padding: const EdgeInsets.only(top: 10.0),
                     child: Text(
-                        "Restaurant Menu".toUpperCase(),
-                        style: TextStyle(
+                      "Restaurant Menu".toUpperCase(),
+                      style: TextStyle(
                         fontSize: 24,
                         color: Colors.black54,
                         fontWeight: FontWeight.bold,

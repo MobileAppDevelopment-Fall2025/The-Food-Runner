@@ -37,13 +37,13 @@ class _CartPageState extends State<CartPage> {
           backgroundColor: Colors.blueAccent,
           foregroundColor: Colors.white,
           title: Text(
-              "Cart".toUpperCase(),
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5,
-              ),
+            "Cart".toUpperCase(),
+            style: TextStyle(
+              fontSize: 24,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.5,
+            ),
           ),
           centerTitle: true,
           elevation: 4,

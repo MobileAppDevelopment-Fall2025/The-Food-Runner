@@ -116,8 +116,7 @@ class _FoodPageState extends State<FoodPage> {
                                 padding: EdgeInsets.zero,
                                 physics: const NeverScrollableScrollPhysics(),
                                 shrinkWrap: true,
-                                itemBuilder: (context, index) {
-                                },
+                                itemBuilder: (context, index) {},
                               ),
                             ),
                           ],

@@ -42,12 +42,12 @@ class _CheckoutPageState extends State<CheckoutPage> {
       body: _isLoading
           ? const LoadingWidget()
           : SingleChildScrollView(
-        child: Column(
-          children: [
-            MyCheckout(),
-          ],
-        ),
-      ),
+              child: Column(
+                children: [
+                  MyCheckout(),
+                ],
+              ),
+            ),
     );
   }
 }

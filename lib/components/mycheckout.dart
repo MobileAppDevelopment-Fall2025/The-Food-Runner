@@ -90,7 +90,7 @@ class MyCheckout extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                        Text(
+                      Text(
                         "Estimated Delivery Time: ${estimatedDeliveryTime.hour}:${estimatedDeliveryTime.minute}",
                         style: TextStyle(
                           color: Colors.teal,

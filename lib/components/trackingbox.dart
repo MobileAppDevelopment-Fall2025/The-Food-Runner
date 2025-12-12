@@ -72,11 +72,11 @@ class MyTrackingBox extends StatelessWidget {
   }
 
   Widget _buildColumnSection(
-      String title,
-      String subtitle,
-      TextStyle titleStyle,
-      TextStyle subtitleStyle,
-      ) {
+    String title,
+    String subtitle,
+    TextStyle titleStyle,
+    TextStyle subtitleStyle,
+  ) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

@@ -7,7 +7,12 @@ class MyQuantitySelector extends StatelessWidget {
   final VoidCallback onIncrement;
   final VoidCallback onDecrement;
 
-  const MyQuantitySelector({super.key, required this.quantity, required this.food, required this.onIncrement, required this.onDecrement});
+  const MyQuantitySelector(
+      {super.key,
+      required this.quantity,
+      required this.food,
+      required this.onIncrement,
+      required this.onDecrement});
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +35,12 @@ class MyQuantitySelector extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            child: SizedBox(width: 20, child: Center(child: Text(quantity.toString(),))),
+            child: SizedBox(
+                width: 20,
+                child: Center(
+                    child: Text(
+                  quantity.toString(),
+                ))),
           ),
           GestureDetector(
             onTap: onIncrement,

@@ -29,7 +29,6 @@ class _CartPageState extends State<CartPage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Consumer<FoodMethods>(builder: (context, restaurant, child) {
       final userCart = restaurant.cart;
 
@@ -47,24 +46,24 @@ class _CartPageState extends State<CartPage> {
                 showDialog(
                     context: context,
                     builder: (context) => AlertDialog(
-                      title: Text(
-                        "Are you sure you want to clear the cart?",
-                        style: TextStyle(fontSize: 20),
-                      ),
-                      actions: [
-                        TextButton(
-                          onPressed: () => Navigator.pop(context),
-                          child: Text('Cancel'),
-                        ),
-                        TextButton(
-                          onPressed: () {
-                            Navigator.pop(context);
-                            restaurant.clearCart();
-                          },
-                          child: Text('Yes'),
-                        ),
-                      ],
-                    ));
+                          title: Text(
+                            "Are you sure you want to clear the cart?",
+                            style: TextStyle(fontSize: 20),
+                          ),
+                          actions: [
+                            TextButton(
+                              onPressed: () => Navigator.pop(context),
+                              child: Text('Cancel'),
+                            ),
+                            TextButton(
+                              onPressed: () {
+                                Navigator.pop(context);
+                                restaurant.clearCart();
+                              },
+                              child: Text('Yes'),
+                            ),
+                          ],
+                        ));
               },
               icon: Icon(Icons.delete),
             ),
@@ -73,49 +72,49 @@ class _CartPageState extends State<CartPage> {
         body: _isLoading
             ? const LoadingWidget()
             : Column(
-          children: [
-            Expanded(
-              child: Column(
                 children: [
-                  userCart.isEmpty
-                      ? Expanded(
-                    child: Center(
-                      child: Text(
-                        "Cart is empty",
-                        style: TextStyle(
-                            color:
-                            Theme.of(context).colorScheme.primary),
-                      ),
-                    ),
-                  )
-                      : Expanded(
-                    child: ListView.builder(
-                        itemCount: userCart.length,
-                        itemBuilder: (context, index) {
-                          final cartItem = userCart[index];
-                          return MyCartTile(cartItem: cartItem);
-                        }),
-                  ),
-                  const SizedBox(height: 40),
-                  MyButton(
-                    title: "Checkout",
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const CheckoutPage(),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        userCart.isEmpty
+                            ? Expanded(
+                                child: Center(
+                                  child: Text(
+                                    "Cart is empty",
+                                    style: TextStyle(
+                                        color: Theme.of(context)
+                                            .colorScheme
+                                            .primary),
+                                  ),
+                                ),
+                              )
+                            : Expanded(
+                                child: ListView.builder(
+                                    itemCount: userCart.length,
+                                    itemBuilder: (context, index) {
+                                      final cartItem = userCart[index];
+                                      return MyCartTile(cartItem: cartItem);
+                                    }),
+                              ),
+                        const SizedBox(height: 40),
+                        MyButton(
+                          title: "Checkout",
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const CheckoutPage(),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
+                      ],
+                    ),
                   ),
                 ],
               ),
-            ),
-          ],
-        ),
         bottomNavigationBar: const MyBottomNavBar(currentIndex: 2),
       );
-
     });
   }
 }

@@ -71,10 +71,10 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         title: Text(
-          "Food Delivery App".toUpperCase(),
+          "The Food Runner".toUpperCase(),
           style: TextStyle(
-            fontSize: 24,
-            color: Theme.of(context).colorScheme.inversePrimary,
+            fontSize: 28,
+            color: Colors.blueAccent,
             fontWeight: FontWeight.bold,
             letterSpacing: 1.5,
           ),
@@ -88,19 +88,28 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   Text(
                     "Login".toUpperCase(),
-                    style: const TextStyle(fontSize: 20),
+                    style: TextStyle(
+                      fontSize: 24,
+                      color: Colors.black54,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 1.5,
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: Image.asset(
-                      'lib/images/LogoColored.png',
+                      'lib/images/icon.png',
+                      width: 200,
+                      height: 200,
                     ),
                   ),
                   const Text(
-                    'Welcome Back Customer!',
+                    'Welcome Back!',
                     style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.grey,
+                      fontSize: 24,
+                      color: Colors.black54,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 1.5,
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -128,7 +137,7 @@ class _LoginPageState extends State<LoginPage> {
                             children: [
                               const Text(
                                 "New User? ",
-                                style: TextStyle(fontSize: 14),
+                                style: TextStyle(fontSize: 18),
                               ),
                               InkWell(
                                 onTap: () => {
@@ -140,7 +149,11 @@ class _LoginPageState extends State<LoginPage> {
                                 child: Text(
                                   "Register Here!",
                                   style: TextStyle(
-                                      color: Colors.blue[700], fontSize: 14),
+                                    fontSize: 18,
+                                    color: Colors.blueAccent,
+                                    fontWeight: FontWeight.bold,
+                                    letterSpacing: 1.5,
+                                  ),
                                 ),
                               ),
                             ],
@@ -160,3 +173,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+

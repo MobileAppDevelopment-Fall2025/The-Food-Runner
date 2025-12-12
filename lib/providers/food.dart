@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:the_food_runner/models/cartitem.dart';
 import 'package:the_food_runner/models/food.dart';
 import 'package:the_food_runner/models/restaurant.dart';
-import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 class FoodMethods extends ChangeNotifier {
   final Restaurant _restaurant = Restaurant();

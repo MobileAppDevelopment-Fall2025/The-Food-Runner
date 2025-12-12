@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:the_food_runner/components/quantityselector.dart';
 import 'package:the_food_runner/models/cartitem.dart';
 import 'package:the_food_runner/providers/food.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class MyCartTile extends StatelessWidget {
   final CartItem cartItem;

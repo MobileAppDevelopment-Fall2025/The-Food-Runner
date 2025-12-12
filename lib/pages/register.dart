@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 import 'package:the_food_runner/components/alert_dialog.dart';
 import 'package:the_food_runner/components/button.dart';
 import 'package:the_food_runner/components/loading.dart';
 import 'package:the_food_runner/components/textformfield.dart';
-import 'package:flutter/material.dart';
 import 'package:the_food_runner/services/authService.dart';
 import 'package:the_food_runner/services/databaseService.dart';
 

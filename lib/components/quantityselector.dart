@@ -1,5 +1,5 @@
-import 'package:the_food_runner/models/food.dart';
 import 'package:flutter/material.dart';
+import 'package:the_food_runner/models/food.dart';
 
 class MyQuantitySelector extends StatelessWidget {
   final int quantity;

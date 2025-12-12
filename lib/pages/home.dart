@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:the_food_runner/components/bottomnav.dart';
 import 'package:the_food_runner/components/loading.dart';
 import 'package:the_food_runner/components/tabitem.dart';
 import 'package:the_food_runner/providers/food.dart';
-import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

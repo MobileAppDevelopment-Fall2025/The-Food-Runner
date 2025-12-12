@@ -1,11 +1,11 @@
+import 'package:provider/provider.dart';
+import 'package:the_food_runner/components/button.dart';
+import 'package:flutter/material.dart';
 import 'package:the_food_runner/providers/food.dart';
 import 'package:the_food_runner/components/bottomnav.dart';
 import 'package:the_food_runner/components/carttile.dart';
 import 'package:the_food_runner/components/loading.dart';
-import 'package:flutter/material.dart';
 import 'package:the_food_runner/pages/checkout.dart';
-import 'package:provider/provider.dart';
-import 'package:the_food_runner/components/button.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({super.key});

@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:the_food_runner/components/loading.dart';
 import 'package:the_food_runner/pages/home.dart';
-import 'package:flutter/material.dart';
 import 'package:the_food_runner/pages/login.dart';
 import 'package:the_food_runner/services/authService.dart';
 

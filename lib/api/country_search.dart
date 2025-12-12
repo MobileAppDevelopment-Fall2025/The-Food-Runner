@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:the_food_runner/services/mealdb_service.dart';
+import 'package:the_food_runner/api/mealdb_service.dart';
 
 class CountrySearchPage extends StatefulWidget {
   const CountrySearchPage({super.key});
@@ -78,7 +78,6 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                         title: Text(area),
                         trailing: const Icon(Icons.chevron_right),
                         onTap: () async {
-                          // Example: fetch meals by selected area
                           final meals = await _service.fetchMealsByArea(area);
                           if (!mounted) return;
                           showModalBottomSheet(
@@ -89,7 +88,9 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.all(12.0),
-                                    child: Text('Meals in $area', style: const TextStyle(fontWeight: FontWeight.bold)),
+                                    child: Text('Meals in $area',
+                                        style: const TextStyle(
+                                            fontWeight: FontWeight.bold)),
                                   ),
                                   Expanded(
                                     child: ListView.builder(
@@ -98,7 +99,8 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                                         final m = meals[i];
                                         return ListTile(
                                           leading: CircleAvatar(
-                                            backgroundImage: NetworkImage(m['strMealThumb'] ?? ''),
+                                            backgroundImage: NetworkImage(
+                                                m['strMealThumb'] ?? ''),
                                           ),
                                           title: Text(m['strMeal'] ?? ''),
                                         );

@@ -6,7 +6,7 @@ This security policy applies to all aspects of the The Food Runner project, incl
 
 ## Reporting a Vulnerability
 
-If users discover a security vulnerability in this project, please report it by [creating an issue]() in the issue tracker. Include as much detail as possible about the vulnerability and steps to reproduce it.
+If users discover a security vulnerability in this project, please report it by [creating an issue](https://github.com/MobileAppDevelopment-Fall2025/The-Food-Runner/issues) in the issue tracker. Include as much detail as possible about the vulnerability and steps to reproduce it.
 
 ### Expectations
 

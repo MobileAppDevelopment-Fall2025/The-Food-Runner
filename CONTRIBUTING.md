@@ -25,7 +25,7 @@ Before submitting a PR, please ensure that your code adheres to the following gu
 
 ## Reporting Bugs
 
-If you encounter any bugs or issues while using CSC4360 Project2, please report them by [creating an issue]() on GitHub. Make sure to include as much detail as possible, including steps to reproduce the issue.
+If you encounter any bugs or issues while using CSC4360 Project2, please report them by [creating an issue](https://github.com/MobileAppDevelopment-Fall2025/The-Food-Runner/issues) on GitHub. Make sure to include as much detail as possible, including steps to reproduce the issue.
 
 ## Contact
 
@@ -33,7 +33,7 @@ If you have any questions or need further assistance, feel free to reach out to 
 
 ## License
 
-By contributing to The Food Runner, you agree that your contributions will be licensed under the Apache License. See the [LICENSE]() file for more details.
+By contributing to The Food Runner, you agree that your contributions will be licensed under the Apache License. See the [LICENSE](https://github.com/MobileAppDevelopment-Fall2025/The-Food-Runner/blob/main/LICENSE) file for more details.
 
 Thank you for your interest in contributing to The Food Runner! We appreciate your help in making this project better for everyone.
 

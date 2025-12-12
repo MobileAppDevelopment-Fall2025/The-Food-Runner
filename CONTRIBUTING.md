@@ -25,7 +25,7 @@ Before submitting a PR, please ensure that your code adheres to the following gu
 
 ## Reporting Bugs
 
-If you encounter any bugs or issues while using CSC4360 Project2, please report them by [creating an issue](https://github.com/MobileAppDevelopment-Fall2025/The-Food-Runner/issues) on GitHub. Make sure to include as much detail as possible, including steps to reproduce the issue.
+If you encounter any bugs or issues while using The Food Runner, please report them by [creating an issue](https://github.com/MobileAppDevelopment-Fall2025/The-Food-Runner/issues) on GitHub. Make sure to include as much detail as possible, including steps to reproduce the issue.
 
 ## Contact
 

@@ -34,9 +34,17 @@ class _CartPageState extends State<CartPage> {
 
       return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue[600],
+          backgroundColor: Colors.blueAccent,
           foregroundColor: Colors.white,
-          title: Text("Cart".toUpperCase()),
+          title: Text(
+              "Cart".toUpperCase(),
+              style: TextStyle(
+                fontSize: 24,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.5,
+              ),
+          ),
           centerTitle: true,
           elevation: 4,
           shadowColor: Colors.grey,

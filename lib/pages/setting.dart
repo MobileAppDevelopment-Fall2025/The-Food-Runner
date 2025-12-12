@@ -45,9 +45,17 @@ class _SettingPageState extends State<SettingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
-        title: Text("Setting".toUpperCase()),
+        title: Text(
+            "Setting".toUpperCase(),
+            style: TextStyle(
+              fontSize: 24,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.5,
+            ),
+        ),
         centerTitle: true,
         elevation: 6,
         shadowColor: Colors.grey,

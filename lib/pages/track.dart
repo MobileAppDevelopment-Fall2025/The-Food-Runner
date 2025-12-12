@@ -37,9 +37,17 @@ class _TrackPageState extends State<TrackPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.white,
-        title: Text("Track".toUpperCase()),
+        title: Text(
+            "Track".toUpperCase(),
+            style: TextStyle(
+              fontSize: 24,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.5,
+            ),
+        ),
         centerTitle: true,
         elevation: 4,
         shadowColor: Colors.grey,

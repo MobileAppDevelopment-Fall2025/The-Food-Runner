@@ -14,6 +14,11 @@ class FoodMethods extends ChangeNotifier {
   List<Food> get spanishMenu => _restaurant.allFood["spanish"];
   List<Food> get italianMenu => _restaurant.allFood["italian"];
   List<Food> get americanMenu => _restaurant.allFood["american"];
+  List<Food> get japaneseMenu => _restaurant.allFood["japanese"];
+  List<Food> get indianMenu => _restaurant.allFood["indian"];
+  List<Food> get mexicanMenu => _restaurant.allFood["mexican"];
+  List<Food> get thaiMenu => _restaurant.allFood["thai"];
+  List<Food> get frenchMenu => _restaurant.allFood["french"];
 
   String _deliveryAddress = "123 Flint Drive, Atlanta, Georgia 30303";
   String get deliveryAddress => _deliveryAddress;
@@ -72,15 +77,15 @@ class FoodMethods extends ChangeNotifier {
 
   String displayCartReceipt() {
     final receipt = StringBuffer();
-    receipt.writeln("Food Delivery App");
+    receipt.writeln("The Food Runner");
+    receipt.writeln("A Food Delivery Platform");
     receipt.writeln("427 Holcomb Bridge, Atlanta, GA 30022");
     receipt.writeln("(470) 123-987");
     receipt.writeln();
 
     String formattedDate =
-    DateFormat('yyyy-mm-dd hh:mm:ss').format(DateTime.now());
+        DateFormat('yyyy-mm-dd hh:mm:ss').format(DateTime.now());
     receipt.writeln("Date: $formattedDate");
-    receipt.writeln("Customer: Mira Jane");
     receipt.writeln("Ticket#: 120");
     receipt.writeln();
 
@@ -109,7 +114,8 @@ class FoodMethods extends ChangeNotifier {
     receipt.writeln();
 
     receipt.writeln("PAYMENT DETAILS");
-    receipt.writeln("DISCOVER - 1919               ${_formatPrice(getTotalPrice())}");
+    receipt.writeln(
+        "DISCOVER - 1919               ${_formatPrice(getTotalPrice())}");
     receipt.writeln();
 
     receipt.writeln("All Services are Final");
@@ -145,5 +151,4 @@ class FoodMethods extends ChangeNotifier {
   String _formatPrice(double price) {
     return "\$${price.toStringAsFixed(2)}";
   }
-
 }

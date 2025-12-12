@@ -2,7 +2,7 @@
 
 ## Scope
 
-This security policy applies to all aspects of the The Food Runner project, including but not limited to the codebase, documentation, and website.
+This security policy applies to all aspects of the The Food Runner, including but not limited to the codebase, documentation, and website.
 
 ## Reporting a Vulnerability
 

@@ -1,4 +1,4 @@
-# The Food Runner - 
+# The Food Runner - A Food Delivery Platform
 
 ## Overview
 Welcome to our The Food Runner! The primary goal of this project is to develop a user-friendly mobile application that enables customers to discover, order, and track the delivery of a wide variety of restaurant meals. The Food Delivery Application aims to provide a convenient and efficient solution for users to browse menus, place orders, and receive on-demand deliveries, simplifying the overall food ordering and delivery experience.

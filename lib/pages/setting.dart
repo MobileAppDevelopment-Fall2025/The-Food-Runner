@@ -1,13 +1,13 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:project2/components/setting_button.dart';
-import 'package:project2/components/bottomnav.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/pages/display_user.dart';
-import 'package:project2/pages/updateprofile.dart';
-import 'package:project2/services/authService.dart';
-import 'package:project2/services/databaseService.dart';
-import 'package:project2/services/redirecting_service.dart';
+import 'package:the_food_runner/components/setting_button.dart';
+import 'package:the_food_runner/components/bottomnav.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/pages/display_user.dart';
+import 'package:the_food_runner/pages/updateprofile.dart';
+import 'package:the_food_runner/services/authService.dart';
+import 'package:the_food_runner/services/databaseService.dart';
+import 'package:the_food_runner/services/redirecting_service.dart';
 
 class SettingPage extends StatefulWidget {
   const SettingPage({super.key});

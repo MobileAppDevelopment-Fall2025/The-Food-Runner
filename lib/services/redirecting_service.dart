@@ -1,8 +1,8 @@
-import 'package:project2/components/loading.dart';
-import 'package:project2/pages/home.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/pages/home.dart';
 import 'package:flutter/material.dart';
-import 'package:project2/pages/login.dart';
-import 'package:project2/services/authService.dart';
+import 'package:the_food_runner/pages/login.dart';
+import 'package:the_food_runner/services/authService.dart';
 
 class RedirectingService extends StatelessWidget {
   const RedirectingService({super.key});

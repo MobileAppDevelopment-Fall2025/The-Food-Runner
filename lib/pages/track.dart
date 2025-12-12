@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:project2/services/databaseService.dart';
-import 'package:project2/components/bottomnav.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/providers/food.dart';
-import 'package:project2/components/currentlocation.dart';
-import 'package:project2/components/trackingbox.dart';
-import 'package:project2/components/button.dart';
-import 'package:project2/pages/checkout.dart';
-import 'package:project2/pages/cart.dart';
+import 'package:the_food_runner/services/databaseService.dart';
+import 'package:the_food_runner/components/bottomnav.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/providers/food.dart';
+import 'package:the_food_runner/components/currentlocation.dart';
+import 'package:the_food_runner/components/trackingbox.dart';
+import 'package:the_food_runner/components/button.dart';
+import 'package:the_food_runner/pages/checkout.dart';
+import 'package:the_food_runner/pages/cart.dart';
 
 class TrackPage extends StatefulWidget {
   const TrackPage({super.key});

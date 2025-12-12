@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:project2/components/alert_dialog.dart';
-import 'package:project2/components/button.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/components/textformfield.dart';
+import 'package:the_food_runner/components/alert_dialog.dart';
+import 'package:the_food_runner/components/button.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/components/textformfield.dart';
 import 'package:flutter/material.dart';
-import 'package:project2/services/authService.dart';
-import 'package:project2/services/databaseService.dart';
+import 'package:the_food_runner/services/authService.dart';
+import 'package:the_food_runner/services/databaseService.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});

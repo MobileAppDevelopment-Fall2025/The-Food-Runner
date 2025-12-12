@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project2/pages/home.dart';
-import 'package:project2/pages/setting.dart';
-import 'package:project2/pages/track.dart';
-import 'package:project2/pages/cart.dart';
+import 'package:the_food_runner/pages/home.dart';
+import 'package:the_food_runner/pages/setting.dart';
+import 'package:the_food_runner/pages/track.dart';
+import 'package:the_food_runner/pages/cart.dart';
 
 class MyBottomNavBar extends StatelessWidget {
   const MyBottomNavBar({

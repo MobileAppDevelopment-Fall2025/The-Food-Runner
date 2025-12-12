@@ -1,4 +1,4 @@
-import 'package:project2/providers/food.dart';
+import 'package:the_food_runner/providers/food.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

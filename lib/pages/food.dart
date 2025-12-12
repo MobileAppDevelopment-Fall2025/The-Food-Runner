@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:project2/components/button.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/models/food.dart';
-import 'package:project2/providers/food.dart';
+import 'package:the_food_runner/components/button.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/models/food.dart';
+import 'package:the_food_runner/providers/food.dart';
 
 class FoodPage extends StatefulWidget {
   const FoodPage({

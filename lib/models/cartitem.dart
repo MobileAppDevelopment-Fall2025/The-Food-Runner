@@ -1,4 +1,4 @@
-import 'package:project2/models/food.dart';
+import 'package:the_food_runner/models/food.dart';
 
 class CartItem {
   Food food;

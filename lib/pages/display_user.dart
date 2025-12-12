@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:project2/components/display_box.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/services/authService.dart';
-import 'package:project2/services/databaseService.dart';
+import 'package:the_food_runner/components/display_box.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/services/authService.dart';
+import 'package:the_food_runner/services/databaseService.dart';
 
 class DisplayUserPage extends StatefulWidget {
   const DisplayUserPage({

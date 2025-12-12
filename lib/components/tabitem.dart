@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project2/models/food.dart';
-import 'package:project2/pages/food.dart';
+import 'package:the_food_runner/models/food.dart';
+import 'package:the_food_runner/pages/food.dart';
 
 class TabItems extends StatelessWidget {
   const TabItems({

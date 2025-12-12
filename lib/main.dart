@@ -1,6 +1,6 @@
-import 'package:project2/firebase_options.dart';
-import 'package:project2/providers/food.dart';
-import 'package:project2/services/redirecting_service.dart';
+import 'package:the_food_runner/firebase_options.dart';
+import 'package:the_food_runner/providers/food.dart';
+import 'package:the_food_runner/services/redirecting_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

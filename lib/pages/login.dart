@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:project2/components/button.dart';
-import 'package:project2/components/loading.dart';
-import 'package:project2/components/textformfield.dart';
-import 'package:project2/pages/register.dart';
-import 'package:project2/services/authService.dart';
+import 'package:the_food_runner/components/button.dart';
+import 'package:the_food_runner/components/loading.dart';
+import 'package:the_food_runner/components/textformfield.dart';
+import 'package:the_food_runner/pages/register.dart';
+import 'package:the_food_runner/services/authService.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {

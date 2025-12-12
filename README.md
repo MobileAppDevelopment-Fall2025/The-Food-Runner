@@ -1,20 +1,21 @@
 # The Food Runner - A Food Delivery Platform
 
 ## Overview
-Welcome to my The Food Runner! The primary goal of this project is to develop a user-friendly mobile application that enables customers to discover, order, and track the delivery of a wide variety of restaurant meals. The Food Delivery Application aims to provide a convenient and efficient solution for users to browse menus, place orders, and receive on-demand deliveries, simplifying the overall food ordering and delivery experience.
+Welcome to my The Food Runner! The primary goal of this project is to develop a user-friendly mobile application that enables customers to discover, order, and track the delivery of a wide variety of restaurant meals. The Food Runner, a food delivery platform, aims to provide a convenient and efficient solution for users to browse menus, place orders, and receive on-demand deliveries, simplifying the overall food ordering and delivery experience.
 
 ## Group Member:
 - Sophie Nguyen
 
 ## Project Details
-- [**Proposal**]()
-- [**APK File**]()
-- [**Slides**]()
-- [**Demo**]()
-- 
+- [**Proposal**](https://drive.google.com/file/d/1t1XlbwsB0d8h4rvUvGD8pCuJWYq5w2oe/view?usp=sharing)
+- [**APK File**](https://drive.google.com/file/d/1nRQme7c28afGejyeGLr4exWXF5FjGIXl/view?usp=sharing)
+- [**Slides**](https://docs.google.com/presentation/d/1wj11lZibtzqW0-fTn9aBFlkh2drO5CNI/edit?usp=sharing&ouid=115063291951967236235&rtpof=true&sd=true)
+- [**Demo**](https://drive.google.com/drive/folders/15wBJDDcl92qZiNKYIVm_EdIzHP7pj7b9?usp=sharing)
+
 ## Tech Stack
 - **Flutter (Dart-based)**: Cross-platform mobile application development framework.
 - **Firebase**: Provides authentication and real-time database services.
+- **TheMealDB API**: Retrieve dishes based on different countries.
 - **Git**: Version control system for collaboration and code management.
 - **Code Editors and IDEs**: Visual Studio Code, Android Studio, Xcode, etc.
   

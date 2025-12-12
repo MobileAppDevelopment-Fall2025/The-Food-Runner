@@ -10,7 +10,7 @@ Welcome to my The Food Runner! The primary goal of this project is to develop a 
 - [**Proposal**](https://drive.google.com/file/d/1t1XlbwsB0d8h4rvUvGD8pCuJWYq5w2oe/view?usp=sharing)
 - [**APK File**](https://drive.google.com/file/d/1nRQme7c28afGejyeGLr4exWXF5FjGIXl/view?usp=sharing)
 - [**Slides**](https://docs.google.com/presentation/d/1wj11lZibtzqW0-fTn9aBFlkh2drO5CNI/edit?usp=sharing&ouid=115063291951967236235&rtpof=true&sd=true)
-- [**Demo**](https://drive.google.com/drive/folders/15wBJDDcl92qZiNKYIVm_EdIzHP7pj7b9?usp=sharing)
+- [**Demo**](https://drive.google.com/file/d/1zSnfUrdHhu_mJcYJu0YhTACIlfauozYH/view?usp=sharing)
 
 ## Tech Stack
 - **Flutter (Dart-based)**: Cross-platform mobile application development framework.
